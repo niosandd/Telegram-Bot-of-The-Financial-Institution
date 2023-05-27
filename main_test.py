@@ -14,7 +14,7 @@ from pentafoil_chart import *
 from keyboards import test
 from description_of_products import *
 
-bot = Bot(token='6032169269:AAHY9H4tJXl2qLoKgY1nh7unX5-YKV51d1A')
+bot = Bot(token='YOUR TOKEN')
 dp = Dispatcher(bot)
 conn = sqlite3.connect('db/test.db', check_same_thread=False)
 
