@@ -16,7 +16,7 @@ from pentafoil_chart import *
 from answer_values_for_test import *
 
 
-bot = Bot(token='6064231364:AAGB_5W5CVaj56N5lnwFIvs4EYLYJQswKMg')
+bot = Bot(token='YOUR TOKEN')
 dp = Dispatcher(bot)
 conn = sqlite3.connect('db/test.db', check_same_thread=False)
 start_photo = 'start_photo.png'
